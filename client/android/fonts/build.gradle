@@ -12,6 +12,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:$versions.androidx.appcompat") {
         exclude group: "androidx.fragment", module: "fragment"
     }
-    implementation "androidx.core:core:$versions.androidx.core"
+    implementation libs.androidx.core.ktx
     implementation "javax.inject:javax.inject:$versions.javax"
+
 }
